@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="88">
+ <tileset firstgid="1" name="tilesheet" tilewidth="64" tileheight="64" tilecount="99" columns="11">
+  <image source="../assets/tilesheet.png" width="704" height="576"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="15" height="10">
+  <data encoding="csv">
+49,49,60,60,60,60,60,60,48,60,60,60,60,60,60,
+49,49,5,39,39,39,39,38,39,39,39,39,6,60,60,
+49,49,28,59,59,59,60,60,60,60,60,60,28,60,60,
+49,49,28,59,50,59,60,60,60,60,60,60,28,60,60,
+49,49,28,59,59,59,60,60,60,60,60,60,27,60,60,
+49,49,16,39,39,38,39,39,37,60,60,60,28,60,48,
+49,49,60,60,60,60,60,60,60,60,59,59,28,60,60,
+49,49,49,60,60,60,60,60,60,60,59,59,28,60,60,
+39,39,39,39,38,39,39,39,39,38,39,39,17,60,60,
+49,49,49,49,49,49,48,60,60,60,60,60,60,60,60
+</data>
+ </layer>
+ <objectgroup name="Слой объектов 1">
+  <object id="2" type="bumper" x="844" y="514" width="34" height="59">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object id="3" type="bumper" x="767" y="45" width="62" height="29">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="4" type="bumper" x="106" y="64" width="26" height="61">
+   <properties>
+    <property name="direction" value="down"/>
+   </properties>
+  </object>
+  <object id="5" type="bumper" x="127" y="390" width="63" height="26">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="9" gid="88" x="-16" y="577" width="64" height="64"/>
+  <object id="14" gid="88" x="-69" y="575" width="64" height="64"/>
+  <object id="15" gid="88" x="-126" y="578" width="64" height="64"/>
+  <object id="16" gid="88" x="-179" y="578" width="64" height="64"/>
+  <object id="17" gid="88" x="-233" y="578" width="64" height="64"/>
+  <object id="18" gid="88" x="-286" y="578" width="64" height="64"/>
+  <object id="20" gid="88" x="-347" y="576" width="64" height="64"/>
+  <object id="21" gid="88" x="-403" y="576" width="64" height="64"/>
+  <object id="22" gid="88" x="-464" y="576" width="64" height="64"/>
+  <object id="23" gid="88" x="-524" y="576" width="64" height="64"/>
+  <object id="24" gid="88" x="-583" y="576" width="64" height="64"/>
+  <object id="25" gid="88" x="-642" y="576" width="64" height="64"/>
+  <object id="26" gid="88" x="-1031" y="572.5" width="64" height="64"/>
+  <object id="27" gid="88" x="-753" y="571.5" width="64" height="64"/>
+  <object id="28" gid="88" x="-1087" y="572.5" width="64" height="64"/>
+  <object id="29" gid="88" x="-810" y="574.5" width="64" height="64"/>
+  <object id="30" gid="88" x="-1148" y="572.5" width="64" height="64"/>
+  <object id="31" gid="88" x="-970" y="574.5" width="64" height="64"/>
+  <object id="32" gid="88" x="-1326" y="572.5" width="64" height="64"/>
+  <object id="33" gid="88" x="-1208" y="572.5" width="64" height="64"/>
+  <object id="34" gid="88" x="-700" y="573.5" width="64" height="64"/>
+  <object id="35" gid="88" x="-863" y="574.5" width="64" height="64"/>
+  <object id="36" gid="88" x="-1267" y="572.5" width="64" height="64"/>
+  <object id="37" gid="88" x="-917" y="574.5" width="64" height="64"/>
+  <object id="38" gid="88" x="-1712" y="570.5" width="64" height="64"/>
+  <object id="39" gid="88" x="-1434" y="569.5" width="64" height="64"/>
+  <object id="40" gid="88" x="-1768" y="570.5" width="64" height="64"/>
+  <object id="41" gid="88" x="-1491" y="572.5" width="64" height="64"/>
+  <object id="42" gid="88" x="-1829" y="570.5" width="64" height="64"/>
+  <object id="43" gid="88" x="-1651" y="572.5" width="64" height="64"/>
+  <object id="44" gid="88" x="-2007" y="570.5" width="64" height="64"/>
+  <object id="45" gid="88" x="-1889" y="570.5" width="64" height="64"/>
+  <object id="46" gid="88" x="-1381" y="571.5" width="64" height="64"/>
+  <object id="47" gid="88" x="-1544" y="572.5" width="64" height="64"/>
+  <object id="48" gid="88" x="-1948" y="570.5" width="64" height="64"/>
+  <object id="49" gid="88" x="-1598" y="572.5" width="64" height="64"/>
+  <object id="50" gid="75" x="512" y="385" width="64" height="64"/>
+  <object id="56" gid="91" x="193" y="513" width="64" height="64"/>
+  <object id="57" gid="91" x="257" y="449" width="64" height="64"/>
+  <object id="58" gid="91" x="321" y="512" width="64" height="64"/>
+  <object id="59" gid="91" x="384" y="447" width="64" height="64"/>
+  <object id="60" gid="91" x="448" y="512" width="64" height="64"/>
+  <object id="61" gid="91" x="513" y="449" width="64" height="64"/>
+  <object id="62" gid="91" x="575" y="511" width="64" height="64"/>
+  <object id="63" gid="91" x="578" y="383" width="64" height="64"/>
+  <object id="64" gid="91" x="704" y="385" width="64" height="64"/>
+  <object id="65" gid="91" x="640" y="319" width="64" height="64"/>
+  <object id="66" gid="91" x="575" y="256" width="64" height="64"/>
+  <object id="67" gid="91" x="705" y="257" width="64" height="64"/>
+  <object id="68" gid="91" x="641" y="187" width="64" height="64"/>
+  <object id="69" gid="91" x="513" y="192" width="64" height="64"/>
+  <object id="70" gid="91" x="514" y="318" width="64" height="64"/>
+  <object id="71" gid="91" x="444" y="257" width="64" height="64"/>
+  <object id="72" gid="91" x="385" y="321" width="64" height="64"/>
+  <object id="73" gid="91" x="380" y="184" width="64" height="64"/>
+ </objectgroup>
+</map>
